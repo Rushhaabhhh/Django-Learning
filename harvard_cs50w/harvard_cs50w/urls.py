@@ -23,4 +23,5 @@ urlpatterns = [
     
     path("first/", include("first_project.urls")),
     path("newyear/", include("newyear.urls")),
+    path('tasks/', include('tasks.urls')),
 ]

@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,17 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is it New Year ?</title>
+    <link rel="stylesheet" href="{% static 'newyear/styles.css' %}">
 </head>
 
 <body>
     {% if newyear %}
     <h1>Yes!</h1>
         <h1>Happy New Year!</h1>
-        <p>It's {{ year }}!</p>
+        <h2>It's New Year {{ year }}!</h2>
     {% else %}
         <h1>No!</h1>
         <p>It's not New Year yet!</p>
         <p>It's {{ day }} / {{ month }} / {{ year }} !</p>
-a    {% endif %}
+    {% endif %}
 </body>
 </html>

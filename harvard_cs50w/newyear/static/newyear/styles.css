@@ -1,0 +1,19 @@
+h1 {
+    font-size: 100px;
+    color: midnightblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
