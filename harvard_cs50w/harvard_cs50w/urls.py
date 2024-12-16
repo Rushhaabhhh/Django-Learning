@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path("first/", include("first_project.urls")),
+    path("newyear/", include("newyear.urls")),
 ]

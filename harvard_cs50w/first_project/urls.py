@@ -6,4 +6,6 @@ urlpatterns = [
     path("", views.index, name="index"),
     
     path("<str:name>", views.greet, name="greet"),
+    
+    path("greetPage/<str:name>", views.greetPage, name="greetPage")
 ]
